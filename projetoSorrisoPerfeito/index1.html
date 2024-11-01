@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorriso Perfeito</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" type="imagex/png" href="assets/img/clinica.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="scripts/scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="assets/img/Logo Dentista Tradicional Azul e Branco (1)_processed.png"
+        alt=""
+      />
+      <nav>
+        <ul class="link">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#galeria">Galeria de Sorrisos</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="h1">
+      <h1>Bem-vindo ao Sorriso Perfeito</h1>
+      <p>
+        Seu sorriso é a nossa prioridade. Conheça nossos serviços de
+        odontologia.
+      </p>
+    </section>
+
+    <section id="servicos">
+      <h2>Nossos Serviços</h2>
+      <ul>
+        <p>Limpeza Dentária</p>
+        <p>Clareamento</p>
+        <p>Implantes</p>
+        <p>Ortodontia</p>
+        <p>Tratamento de Canal</p>
+      </ul>
+    </section>
+
+    <section class="max-width bg" id="Service">
+      <div class="container">
+          <div class="content">
+              <div class="titulo">
+                  <h2 class="text-md color-cinza-1">Destaque</h2>
+                  
+              </div>
+
+              <!--Aqui começa o slide-->
+              <style>
+                  .cards {
+                      display: flex;
+                      overflow: hidden;
+                      /* Para esconder overflow dos slides */
+                  }
+
+                  .card {
+                      display: none;
+                      /* Esconder todos os slides inicialmente */
+                      flex: 1 0 100%;
+                      /* Faz cada slide ocupar toda a largura */
+                      position: relative;
+                      /* Necessário para posicionamento absoluto dos botões */
+                  }
+
+                  .card img {
+                      width: 100%;
+                      height: auto;
+                  }
+
+                  .card button {
+                      position: absolute;
+                      bottom: 10px;
+                      left: 50%;
+                      transform: translateX(-50%);
+                  }
+              </style>
+
+              <!-- Slides -->
+              <input type="radio" name="slider" id="item-1" checked>
+              <input type="radio" name="slider" id="item-2">
+              <input type="radio" name="slider" id="item-3">
+
+              <div class="cards">
+                  <label class="card" for="item-1" id="song-1">
+                      <img src="assets/img/sorriso1.jfif" alt="">
+                    
+                  </label>
+                  <label class="card" for="item-2" id="song-2">
+                      <img src="assets/img/sorriso3.jfif">
+                      
+                  </label>
+                  <label class="card" for="item-3" id="song-3">
+                      <img src="assets/img/sorriso4.jfif">
+                      
+                  </label>
+              </div>
+
+              <script>
+                  // Selecionar os botões de rádio
+                  const radios = document.querySelectorAll('input[name="slider"]');
+                  let index = 0;
+
+                  // Função para mudar o slide automaticamente
+                  function changeSlide() {
+                      radios[index].checked = true; // Marcar o próximo botão de rádio
+                      index = (index + 1) % radios.length; // Avançar para o próximo slide circularmente
+                  }
+
+                  // Intervalo para trocar os slides automaticamente (a cada 3 segundos neste exemplo)
+                  setInterval(changeSlide, 3000);
+              </script>
+              <!--Aqui termina o slide-->
+
+          </div>
+      </div>
+      </div>
+  </section>
+
+    <section id="depoimentos">
+      <h2>Depoimentos</h2>
+      <blockquote>
+        <p>
+          "Ótimo atendimento e profissionais super qualificados!" - João da
+          Silva
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>
+          "Nunca tive um sorriso tão bonito! Agradeço a toda a equipe." - Maria
+          Oliveira
+        </p>
+      </blockquote>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form action="https://formsubmit.co/urbantzky@gmail.com" method="POST">
+        <input type="text" id="name" placeholder="Seu Nome" required />
+        <input type="email" id="email" placeholder="Seu E-mail" required />
+        <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Contato: contato@sorrisoperfeito.com</p>
+      <p>
+        <a href="#" class="icon"><img src="assets/img/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="assets/img/facebook.png" alt="Facebook" /></a>
+      </p>
+      <p>&copy; 2024 Sorriso Perfeito. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script>
+      // Selecionar os botões de rádio
+      const radios = document.querySelectorAll('input[name="slider"]');
+      let index = 0;
+
+      // Função para mudar o slide automaticamente
+      function changeSlide() {
+          radios[index].checked = true; // Marcar o próximo botão de rádio
+          index = (index + 1) % radios.length; // Avançar para o próximo slide circularmente
+      }
+
+      // Intervalo para trocar os slides automaticamente (a cada 3 segundos neste exemplo)
+      setInterval(changeSlide, 3000);
+  </script>
+  <!--Aqui termina o slide-->
+  </body>
+</html>
