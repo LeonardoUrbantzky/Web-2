@@ -27,6 +27,9 @@ header .logo {
     margin: -50px;
     float: left;
 }
+p {
+    margin-left: -40px;
+}
 nav {
     margin-right: 5%;
 }
