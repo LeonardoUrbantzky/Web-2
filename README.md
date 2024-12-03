@@ -20,7 +20,7 @@
 
 ## 📖 Descrição do Projeto
 
-Este projeto consiste em uma landing page desenvolvida para um consultorio dentario chamado **Sorisso perfeito**. A página simula um site, apresentando informações sobre o consultario, home, galeria de sorrisos e formas de contato. O objetico é oferecer uma experiência tranquilo e atrativa para os vistantes, destacando os modelos e resultado de clientes.
+O Projeto "Sorriso Perfeito" é uma iniciativa focada na promoção da saúde bucal e estética dental, com o objetivo de proporcionar aos pacientes um sorriso harmonioso, saudável e de acordo com os padrões de beleza modernos. Através de tratamentos personalizados, o projeto visa transformar a autoestima e a qualidade de vida das pessoas, proporcionando-lhes um sorriso bonito e funcional.
 
 ---
 
