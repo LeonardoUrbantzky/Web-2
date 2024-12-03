@@ -55,7 +55,7 @@ Para configurar e executar o projeto localmente, siga os passos abaixo:
 git clone https://github.com/LeonardoUrbantzky/Web-2.git
 cd repositorio
 
-Escreva no seu navegador http://localhost/Web-2.git/index1.html
+Escreva no seu navegador http://localhost/Web-2.git
 
 
 Para configurar e executar o projeto localmente, siga os passos abaixo:
