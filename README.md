@@ -60,8 +60,5 @@ Escreva no seu navegador http://localhost/Web-2.git/index1.html
 
 Para configurar e executar o projeto localmente, siga os passos abaixo:
 
-```bash
-git clone https://github.com/BernardoRode/Sorriso_Perfeito.git
-cd repositorio
 
 Abra o arquivo index.html no seu navegador preferido.
